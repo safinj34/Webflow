@@ -12,15 +12,15 @@ body{background-color: rgba(0, 0, 255, 0.025);}
 nav div button{ border: none;padding: 10px;border-radius: 10px;width: 100px;background-color:#4E47FF;color: white;font-weight: 600;height: 40px;align-items: center;margin: 100px;}
 nav img{width: 10%;}
 nav div{display: flex;justify-content: space-between;align-items: center;margin: 0 100px;}
-.heading{font-size: x-large;text-align:center;justify-content: center;display: flex;}
+.heading,.section6-div{font-size: x-large;text-align:center;justify-content: center;display: flex;}
 .bg{background-image: url(Hero-bg.png);height: 500px;}
-.stay{display: flex;justify-content: center;margin: 20px;}
+.stay,.section-5-button-div{display: flex;justify-content: center;margin: 20px;}
 .stay-button{border: none;background-color:#4E47FF;color: white;font-weight: 600;height: 40px;align-items: center;border-radius: 10px;width:130px ;}
 .section1-heading{font-weight: 700;font-size: 40px;}
-.p{color: rgba(0, 0, 0, 0.521);}
+.p,.section-6-para1{color: rgba(0, 0, 0, 0.521);}
 .btn{border: none;background-color:#4E47FF;color: white;font-weight: 600;height: 40px;align-items: center;border-radius: 10px;width:200px ;}
 .flex{display: flex;justify-content: space-around;margin: 100px;}
-.flex img{border-radius: 20px;}
+.flex img,.section6 img{border-radius: 20px;}
 .heading2 {display: flex;justify-content: center;font-family: "Inter", sans-serif;font-weight:650;font-size: xx-large;}
 .section2{margin: 0px 100px;background-color: #4d47ff22;border-radius: 20px;font-family: "Inter", sans-serif;padding: 10px 0px;}
 .data{display: flex;justify-content: space-around; font-family: "Inter", sans-serif;}
@@ -30,9 +30,9 @@ nav div{display: flex;justify-content: space-between;align-items: center;margin:
 .avatar{display: flex;align-items: center;}
 .star{display: flex;}
 .img-icon{border-radius: 50%;}
-.all{display: flex;margin: 0 100px;padding: 0 50px;gap: 10px;}
+.all{display: flex;margin: 0 100px;padding: 0 50px;gap: 10px;justify-content: center;}
 
-.card{padding: 50px; border-radius: 10px;background-color: white;}
+.card,{padding: 50px; border-radius: 10px;background-color: white;}
 
 .card h3{color: rgba(0, 0, 0, 0.532);}
 .dates{color: rgba(0, 0, 0, 0.354);}
@@ -51,3 +51,6 @@ nav div{display: flex;justify-content: space-between;align-items: center;margin:
   .submit-button:hover {
       background-color: #0056b3;
       background-color: red;}
+      .section-6-para1{justify-content: center;display: flex;}
+      .section-6-img{display: flex;justify-content:center;}
+      .section6{background-color: white;margin: 0 200px;}
