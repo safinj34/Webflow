@@ -32,16 +32,17 @@ nav div{display: flex;justify-content: space-between;align-items: center;margin:
 .img-icon{border-radius: 50%;}
 .all{display: flex;margin: 0 100px;padding: 0 50px;gap: 10px;justify-content: center;}
 
-.card,{padding: 50px; border-radius: 10px;background-color: white;}
+.card{padding: 50px; border-radius: 10px;background-color: white;}
 
 .card h3{color: rgba(0, 0, 0, 0.532);}
 .dates{color: rgba(0, 0, 0, 0.354);}
 .heading4{align-items: center;display: flex;}
-.message{height: 100px;width: 300px;}
+.message{width: 300px; padding-bottom: 50px;padding-left: 5px;padding-top: 5px; border-color: rgba(0, 0, 0, 0.358);}
+
 .form{display: flex;margin: 50px 200px;padding: 50px 50px; gap: 130px;font-family: "Raleway", sans-serif;justify-content: center;}
 .from-placeholders{width: 400px;font-family: "Inter", sans-serif;}
 .heading4 h1{font-weight: 800; font-size: 50px;}
-.text{height: 20px;width: 300px;}
+.text{height: 30px;width: 300px;border-color: rgba(0, 0, 0, 0.358);border-radius: 5px;}
 .submit-button{border: none;width: 310px;height: 50px;margin: 30px 0;border-radius: 10px;background-color: blue;color: white;}
 .footer-img{width: 100px;align-items: center;display: flex;margin-left: 350px;}
 .list{display: flex;color: rgba(0, 0, 0, 0.553);}
